@@ -56,6 +56,13 @@ html,body{
   transition: background .15s ease, transform .15s ease;
 }
 
+.join-logo{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .join-btn:hover{
   background: var(--accent-hover);
   transform: translateY(-1px);
